@@ -1,0 +1,16 @@
+body {
+    animation: changeColor 10s infinite; 
+  }
+  
+  @keyframes changeColor {
+    0% {
+      background-color: #ffcccc; 
+    }
+    50% {
+      background-color: #ccffcc; 
+    }
+    100% {
+      background-color: #ccccff; 
+    }
+  }
+  
